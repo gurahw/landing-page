@@ -55,6 +55,11 @@ button {
     color: #F9FAF8;
     border: none;
     border-radius: 5px;
+    cursor: pointer;
+}
+
+button:active {
+    background-color: #1661F6;
 }
 
 .main-text {
@@ -98,6 +103,14 @@ ul {
     gap: 20px;
     margin: 5px;
     list-style-type: none;
+}
+
+li a {
+    cursor: pointer;
+}
+
+li a:active {
+    color: #a8a8a8;
 }
 
 li a, .main-text p {
